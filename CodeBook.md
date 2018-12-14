@@ -2,7 +2,7 @@
 title: "CodeBook"
 output: html_document
 
-The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project???s definition.
+The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project's definition.
 
 1. Download the dataset
   Dataset downloaded and extracted under the folder called UCI HAR Dataset
@@ -40,10 +40,9 @@ The run_analysis.R script performs the data preparation and then followed by the
   each measurement
 
 5. Uses descriptive activity names to name the activities in the data set
-  Entire numbers in code column of the TidyData replaced with corresponding activity taken    from second column of the activities variable
+  Entire numbers in code column of the TidyData replaced with corresponding activity taken from second column of the activities variable
 
-6. Appropriately labels the data set with descriptive variable names
-  code column in TidyData renamed into activities
+6. Appropriately labels the data set with descriptive variable names code column in TidyData renamed into activities
   All Acc in column???s name replaced by Accelerometer
   All Gyro in column???s name replaced by Gyroscope
   All BodyBody in column???s name replaced by Body
